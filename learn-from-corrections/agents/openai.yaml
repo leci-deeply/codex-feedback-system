@@ -1,0 +1,6 @@
+interface:
+  display_name: "从纠正中持续优化"
+  short_description: "结合对话上下文提炼纠正原因，维护脱敏协作准则、适用边界和版本记录"
+  default_prompt: "使用 $learn-from-corrections 复盘新增纠正，更新协作准则并检查适用边界。"
+policy:
+  allow_implicit_invocation: true
