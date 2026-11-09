@@ -16,3 +16,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: python3 test_feedback.py
+      - run: python3 test_weekly_sync.py
